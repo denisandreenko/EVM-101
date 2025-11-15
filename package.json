@@ -4,8 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:denisandreenko/EVM-101.git",
   "author": "Dzianis Andreyenka <andreenkodn@gmail.com>",
-  "license": "GNU",
+  "license": "MIT",
   "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
     "hardhat": "^3.0.14"
   },
   "type": "module",
