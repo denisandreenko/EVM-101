@@ -36,4 +36,16 @@ export default defineConfig({
       accounts: [process.env.SEPOLIA_PRIVATE_KEY || configVariable("SEPOLIA_PRIVATE_KEY")],
     },
   },
+  verify: {
+    etherscan: {
+      apiKey: process.env.ETHERSCAN_API_KEY || configVariable("ETHERSCAN_API_KEY"),
+      enabled: false,
+    },
+    blockscout: {
+      enabled: false,
+    },
+    sourcify: {
+      enabled: false,
+    },
+  }
 });
