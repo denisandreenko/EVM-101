@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 // Solution for https://ethernaut.openzeppelin.com/ challenge 3 (Coin Flip)
+
 abstract contract CoinFlipInterface {
     function flip(bool _guess) public virtual returns (bool);
 }

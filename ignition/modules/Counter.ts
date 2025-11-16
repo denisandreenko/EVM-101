@@ -5,5 +5,7 @@ export default buildModule("CounterModule", (m) => {
 
   m.call(counter, "incBy", [5n]);
 
+  m.call(counter, "inc");
+
   return { counter };
 });

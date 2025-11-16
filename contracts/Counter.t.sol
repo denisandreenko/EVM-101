@@ -12,7 +12,8 @@ contract CounterTest is Test {
   }
 
   function test_InitialValue() public view {
-    require(counter.x() == 0, "Initial value should be 0");
+    // require(counter.x() == 0, "Initial value should be 0");
+    assertEq(counter.x(), 0, "Initial value should be 0"); // Improved assertion message, that displays the expected and actual values
   }
 
   function testFuzz_Inc(uint8 x) public {
