@@ -24,3 +24,6 @@
 
 # Ignition deployments
 /ignition/deployments
+
+# VSCode settings
+.vscode
