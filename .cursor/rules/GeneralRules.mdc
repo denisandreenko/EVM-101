@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+- Use yarn as the package manager instead of npm
+- Act as a senior software engineer
+- Use best practices when writing code
+- Keep code clean and simple
+- If a question is asked - don't modify the code, just give an answer / suggestions
+- After modifying code, build project and make sure that it's building
+- Use context7 MPC if available
